@@ -2,6 +2,7 @@ import abt4 from "../assets/bread.png";
 import abt2 from "../assets/abt2.png";
 import donut from "../assets/donuts.png";
 import scone from "../assets/scone.png";
+import { Link } from "react-router-dom";
 
 function Products() {
   return (
@@ -43,9 +44,12 @@ function Products() {
             </div>
           </div>
         </div>
+        <Link to="/product">
         <button className="text-[#fff] rounded-[5px]  bg-[#BA8F55] font-[600] text-[18px] p-[5px] px-[35px] mt-[15px]">
             VIEW COMPLETE RANGE
         </button>
+        </Link>
+      
       </div>
     </>
   );

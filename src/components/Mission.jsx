@@ -3,7 +3,7 @@
  function Mission(){
     return(
         <>
-        <div id="wrapper" className="bg-[#F7F5E8] height-[80vh] ">
+        <div id="wrapper" className="bg-[#F7F5E8] height-[80vh] mt-[45px] mb-[45px] ">
         <section className="mission-vision">
       <div className="container">
         <div className="box">

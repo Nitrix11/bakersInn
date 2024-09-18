@@ -20,12 +20,19 @@ function Nav(){
                    <Link to='product'>
                    <li><a href="" className="text-[#261B6C] text-[22px] font-bold" >Products</a></li>
                    </Link>
-                   
+                   <Link to="recipes">
+           
                     <li><a href="" className="text-[#261B6C] text-[22px] font-bold" >Recipes</a></li>
+                    </Link>
+                    <Link to="kids">
                     <li><a href="" className="text-[#261B6C] text-[22px] font-bold" >Kid's Corner</a></li>
+                    </Link>
+                    
                 </ul>
+                <Link to='contact'>
+               
                 <button className=" text-[#fff] rounded-[5px] font-bold bg-[#BA8F55] p-[10px] ml-[20px] ">CONTACT US</button>
-              
+                </Link>
             </div>
         </nav>
         </>

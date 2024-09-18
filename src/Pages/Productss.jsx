@@ -1,8 +1,12 @@
+import PBanner from "../components/DMs";
+import ProductTabs from "../components/P-tabs";
+import Tabs from "../components/Product-tabs";
+
+
 function Productss(){
     return(<>
-    <h2>
-        products
-    </h2>
+   <PBanner/>
+   <Tabs/>
     </>)
 }
 export default Productss;
