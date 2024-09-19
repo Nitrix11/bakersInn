@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Products() {
   return (
     <>
-      <div id="P-wrapper" className="bg-[#F8F8F8] h-[90vh] ">
+      <div id="P-wrapper" className="bg-[#F8F8F8] h-[90vh] md:h-[40vh]">
         <div id="text2">
           <h1 className="text-[#261B6C] text-[32px] font-bold text-center m-[30px]" >
             Our Product Range

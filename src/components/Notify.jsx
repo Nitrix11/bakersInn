@@ -8,9 +8,9 @@ function Notify(){
                 <h1 className="text-[#fff] font-bold text-[30px] my-[20px]">
                 Get Notified About<span><br /></span>Promotions We Offer
                 </h1>
-                <form action="" className="text-[#fff]">
+                <form action="" className="text-[#fff]md:flex md:flex-col md:justify-center">
                     <input type="email" placeholder="your email" className=" px-[15px] rounded-[5px] relative bg-[#C6A460] text-[#fff] w-[500px] py-[10px]" />
-                    <button className=" px-[30px] py-[5px] rounded-[3px] bg-[#261B6C] text-[#fff] absolute font-[600]  left-[435px] m-[5px]">
+                    <button id="submit1"  className=" px-[30px] py-[5px] rounded-[3px] bg-[#261B6C] text-[#fff] absolute font-[600]  left-[435px] m-[5px]">
                         
                         SUBMIT 
                     </button>
@@ -19,7 +19,7 @@ function Notify(){
               
             </div>
             <div id="img2" className="w-[50%]">
-                <img src={bread3} className="w-[90%] mb-[50px]"  alt="" />
+                <img src={bread3} className="w-[90%] md:hidden mb-[50px]"  alt="" />
             </div>
         </div>
     </div>

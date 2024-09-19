@@ -8,15 +8,15 @@ function Spaceship(){
     return(
         <>
         <div id="wrapper10" className="flex gap-[160px] bg-[#018BF1]">
-            <div id="text10">
+            <div id="text10" className="md:w-[50%]">
                 <h1 className="font-bold text-[30px] "> 
                 Spaceship Maze
                 </h1>
                 <p>
-                Help the spaceship through the maze to get<span><br /></span> back to earth. Move through levels with<span><br /></span> increasing difficulty; each puzzle starts the ship<span><br /></span> in a different location. 
+                Help the spaceship through the maze to get<span className="md:hidden"><br /></span> back to earth. Move through levels with<span className="md:hidden"><br /></span> increasing difficulty; each puzzle starts the ship<span className="md:hidden"><br /></span> in a different location. 
                 </p>
                 <p>
-Develop kids’ skills in strategizing, spatial<span><br /></span> awareness, hand-eye coordination, problem<span><br /></span> solving and more! Free to play, priceless for<span><br /></span> learning.
+Develop kids’ skills in strategizing, spatial<span className="md:hidden"><br /></span> awareness, hand-eye coordination, problem<span className="md:hidden"><br /></span> solving and more! Free to play, priceless for<span className="md:hidden"><br /></span> learning.
 
                 </p>
                 <Link to="https://toytheater.com/maze/">

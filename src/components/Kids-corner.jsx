@@ -5,15 +5,15 @@ import { Link } from "react-router-dom";
 function Kids(){
     return(
         <>
-        <div id="wrapper-kids">
-        <div id="Kids">
+        <div id="wrapper-kids" >
+        <div id="Kids" className="md:h-[10vh]">
        <div id="img2" className="w-[50%] mb-[59px]">
-        <img className="w-[88%]" src={mario2} alt="" />
+        <img className="w-[88%] md:w-[100%] lg:w-[79.0%]"  src={mario2} alt="" />
        </div>
-       <div id="text4" className="text-center flex flex-col items-center">
+       <div id="text4" className="text-center md:w-[60%] flex flex-col items-center">
         <img  className="w-[85%]" src={text} alt="" />
         <p className="text-center text-[#fff] text-[20px] ">
-        Let your children join the fun. Explore a place <span><br /></span> with exciting games and the top winners stand a<span><br /></span> chance to win exciting monthly prizes!
+        Let your children join the fun. Explore a place <span  className="md:hidden"><br /></span> with exciting games and the top winners stand a<span  className="md:hidden"><br /></span> chance to win exciting monthly prizes!
         </p>
         <Link to="/kids">
         <button className="text-[#fff] rounded-[5px] font-bold bg-[#FF4655]  p-[10px] mt-[20px]">

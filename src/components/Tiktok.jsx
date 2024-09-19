@@ -3,6 +3,7 @@ import one from"../assets/recipes1.png"
 import two from"../assets/recipes2.png"
 import three from"../assets/recipes3.png"
 import four from"../assets/recipes4.png"
+import ImageCircles from"../components/Effect"
 function Tiktok(){
 return(
     <>
@@ -17,7 +18,7 @@ return(
         </p>
         <img src={profile} className="w-[45%]" alt="" />
        </div>
-       <div id="image6" className="w-[50%]" >
+       {/* <div id="image6" className="w-[50%]" >
         <div id="one" className="flex gap-[15px]">
             <img className="w-[35%]" src={one} alt="" />
             <img className="w-[35%]" src={two} alt="" />
@@ -26,7 +27,8 @@ return(
             <img src={three} className="w-[35%]" alt="" />
             <img src={four} className="w-[35%]" alt="" />
         </div>
-       </div>
+       </div> */}
+       <ImageCircles/>
 
     </div>
     </>
