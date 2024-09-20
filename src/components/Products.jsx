@@ -3,11 +3,12 @@ import abt2 from "../assets/abt2.png";
 import donut from "../assets/donuts.png";
 import scone from "../assets/scone.png";
 import { Link } from "react-router-dom";
+import"../components/Product.css"
 
 function Products() {
   return (
     <>
-      <div id="P-wrapper" className="bg-[#F8F8F8] h-[90vh] md:h-[40vh]">
+      <div id="P-wrapper" className="bg-[#F8F8F8] h-[90vh] ">
         <div id="text2">
           <h1 className="text-[#261B6C] text-[32px] font-bold text-center m-[30px]" >
             Our Product Range

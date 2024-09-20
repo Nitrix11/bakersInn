@@ -18,17 +18,18 @@ return(
         </p>
         <img src={profile} className="w-[45%]" alt="" />
        </div>
-       {/* <div id="image6" className="w-[50%]" >
-        <div id="one" className="flex gap-[15px]">
+       { <div id="image6" className="w-[50%] mr-[70px]" >
+        {/* <div id="one" className="flex gap-[15px]">
             <img className="w-[35%]" src={one} alt="" />
             <img className="w-[35%]" src={two} alt="" />
         </div>
         <div id="two" className="flex gap-[19px] mt-[19px]">
             <img src={three} className="w-[35%]" alt="" />
             <img src={four} className="w-[35%]" alt="" />
-        </div>
-       </div> */}
-       <ImageCircles/>
+        </div> */}
+         <ImageCircles/>
+       </div> }
+      
 
     </div>
     </>

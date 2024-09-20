@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
 function Nav(){
     return(
         <>
-        <nav id="nav" className="flex items-center justify-between height-[10px] sticky sm:hidden" >
+        <nav id="nav" className="flex items-center justify-between height-[10px] sticky " >
             <div className="logo ">
                 <Link to="/">
-                <img className="w-[65%] md:w-[50%] h-[50%] pl-[15px]" src={logo} alt="" />     
+                <img className="w-[65%]  h-[50%] pl-[15px]" src={logo} alt="" />     
                 </Link>
 
             </div>
             <div id="links" className="flex items-center justify-between pr-[15px]">
-                <ul className="flex justify-center gap-[20px] md:text[13px] md:gap-[10px]"  >
+                <ul className="flex justify-center gap-[20px]"  >
                     <Link to="about">
                     <li><a href="" className="text-[#261B6C] text-[22px] font-bold">  About Us</a></li>
                     </Link>

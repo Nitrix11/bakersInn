@@ -1,4 +1,5 @@
 import bread3 from"../assets/Group 1.png"
+import'../components/Notify.css'
 
 function Notify(){
     return(<>
@@ -19,7 +20,7 @@ function Notify(){
               
             </div>
             <div id="img2" className="w-[50%]">
-                <img src={bread3} className="w-[90%] md:hidden mb-[50px]"  alt="" />
+                <img src={bread3} className="w-[90%] mb-[50px]"  alt="" />
             </div>
         </div>
     </div>

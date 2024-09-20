@@ -1,0 +1,17 @@
+
+@media (max-width:768px) {
+    #text{
+        width: 40%;
+    }
+    #wrapper{
+        margin: 20px;
+        margin-top: 50px;
+    }
+    .close {
+        position: absolute;
+        top: 2000px;
+        right: 10px;
+        font-size: 24px;
+        cursor: pointer;
+      }
+}

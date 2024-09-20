@@ -1,0 +1,56 @@
+@media (max-width:768px) {
+    #wrapper-kids{
+        #Kids{
+            height: 700px;
+        }
+        #nyasha{
+            height: 40vh;
+        }
+    padding: 0 20px;    
+ 
+    }
+    #text4{
+        width: 50%;
+        span{
+            display: none;
+        }
+    }
+    #img2{
+        width: 70%;
+    }
+}
+@media(min-width:1440px) {
+    #abt-hero {
+      height: 50vh;
+    
+    }
+#wrapper-kids{
+ 
+  #Kids{
+    height: 70vh;
+    #img2{
+width: 95%;
+margin-bottom: 80px;
+    }
+  }
+}
+    #hero-text{
+      #text{
+        .rectangle{
+          position: absolute;
+          z-index: 1;
+          /* top: 146px; */
+          bottom: 569px;
+          width: 17%;
+        }
+        .rectangle2{
+          position: absolute;
+          z-index: 1;
+          /* top: 146px; */
+          bottom: 520px;
+          width: 17.5%;
+        }
+      }
+    }
+
+  }

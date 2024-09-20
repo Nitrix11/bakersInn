@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+  #close1 {
+    top: 900px;
+  }
+  #props {
+    display: flex;
+    flex-direction: column;
+  }
+  #abt-hero {
+    height: 50vh;
+    h1 {
+      margin-top: 485px;
+      width: 100%;
+      background: linear-gradient(to bottom, transparent, black);
+      border-radius: 5px;
+    }
+  }
+}
+@media (max-width:1440px) {
+   #abt-hero {
+      #abt-h1{
+         margin-top: 395px;
+      }
+      /* height: 10vh; */
+      h1{
+ 
+        width: 10%;
+        background: linear-gradient(to bottom, transparent, black);
+        border-radius: 5px;
+      }
+    } 
+}

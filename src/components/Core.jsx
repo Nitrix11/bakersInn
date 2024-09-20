@@ -7,6 +7,7 @@ import commitment from "../assets/commitment.png";
 import excellence from "../assets/donutss.png";
 import CardCore from"../components/CardCore"
 import Ceo from"../components/Ceo"
+import "../components/AboutUs.css"
 
 const values = [
   {
@@ -51,7 +52,7 @@ const CoreValues = () => {
  
       </div>
       <div>
-        <div className='flex gap-[50px] md:flex-col items-center justify-center mt-[50px]'> 
+        <div id='props' className='flex gap-[50px]  items-center justify-center mt-[50px]'> 
         <CardCore title="Commitment" description="We are accountable to our stakeholders and commit to deliver what we promise. We translate plans into actions; strategies into achievements and tangible returns." image={commitment} />
      <CardCore title="Excellence" description="We strive to be the best in our business. We improve all the time, in all aspects and passionately deliver at the highest level. We offer superior value and present our offering with pride." image={excellence}/>
         </div>

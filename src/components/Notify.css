@@ -1,0 +1,15 @@
+@media (max-width:768px) {
+    #wrapper4{
+        #img2{
+            display: none;
+        }
+        #submit1{
+            margin-left: 120px;
+        }
+    }
+}
+@media (max-width:1440px) {
+#submit1{
+    left:450px;
+}
+}

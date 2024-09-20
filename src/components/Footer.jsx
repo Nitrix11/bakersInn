@@ -8,23 +8,25 @@ import icon3 from"../assets/bi_linkedin.svg"
 import vector from"../assets/Vector.png"
 import mail from"../assets/mail.svg"
 import footerpic from"../assets/inscor_logo@2x 1.png"
+import { Link } from "react-router-dom";
+import"../components/Footer.css"
 function Footer(){
     return(<>
     <div id="wrapper" className='bg-[#261B6C]'>
         <div id="lines" className='flex items-center'>
-            <hr className='w-[50%] mt-[140px]' />
+            <hr className='w-[50%] mt-[140px]  ml-[20px] mr-[20px]' />
             <img className='w-[10%]' src={logo1} alt="" />
-            <hr className='w-[50%] mt-[140px] border-2px' />
+            <hr className='w-[50%] mt-[140px] border-2px  ml-[20px] mr-[20px]' />
         </div>
         <div id="main"  className='flex  gap-[300px] pt-[30px]' >
         <div id="instagramfeed " className="w-[20%]">
-            <h1 className='text-[#fff] font-bold text-[20px]  mb-[10px] '>Instagram Feed</h1>
-            <div id="pic5" className='flex w-[45%] gap-[15px]'>
+            <h1 id="h1" className='text-[#fff] font-bold text-[20px]  mb-[10px] ml-[20px] '>Instagram Feed</h1>
+            <div id="pic5" className='flex w-[45%] gap-[15px] ml-[20px]'>
                 <img src={feed1} alt="" />
                 <img src={feed2} alt="" />
                 <img src={feed3} alt="" />
             </div>
-            <div id="icons" className='flex w-[10%] gap-[5px] mt-[20px] mb-[10px]'>
+            <div id="icons" className='flex w-[10%] gap-[5px] mt-[20px] mb-[10px]  ml-[20px]'>
                 <img src={icon} alt="" />
                 <img src={icon2} alt="" />
                 <img src={icon3} alt="" />
@@ -66,18 +68,33 @@ Zimbabwe.
             Sitemap
             </h1>
             <ul className='text-[#fff]'>
+                <Link to="/">
                 <li><a href="#">Home</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Recipes</a></li>
+                </Link>
+                <Link to="/about">
+                <li><a href="">About Us</a></li>  
+                    </Link>
+                    <Link to="/product">
+                    <li><a href="">Products</a></li>
+                    </Link>
+                    <Link to="/recipes">
+                    <li><a href="">Recipes</a></li>
+                    </Link>
+                    <Link to="/kids">
+                       
                 <li><a href="">Kids Corner</a></li>
+                    </Link>
+            
+            
+                
+          
             </ul>
         </div>
         </div>
         </div>
-        <hr className='mb-[15px]' />
+        <hr className='mb-[15px]  ml-[20px] mr-[20px]' />
         <div id="last-footer" className='flex items-center justify-between text-[#fff] p-[15px ] '>
-        <p id='copyright' className='flex items-center text-[#fff]' >
+        <p id='copyright' className='flex items-center text-[#fff] ml=[3100px]' >
         Subsidiary of
         <img src={footerpic} alt="" className='p-[10px ] pb-[21px]'/>
 

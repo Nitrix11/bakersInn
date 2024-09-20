@@ -12,7 +12,7 @@
           </div>
           <div className="content">
             <h2>Our Mission</h2>
-            <p>
+            <p className='  text-[#261B6C]'>
               To sharpen our edge in the manufacture and marketing of quality
               baked products.
             </p>
@@ -25,7 +25,7 @@
           </div>
           <div className="content">
             <h2>Our Vision</h2>
-            <p>
+            <p className='  text-[#261B6C]'>
               To provide a nourishing, convenient, and accessible answer to
               hunger’s call.
             </p>
