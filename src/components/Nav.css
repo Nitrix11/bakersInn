@@ -1,0 +1,25 @@
+@media (max-width:768px) {
+    #nav{
+        .logo{
+            width: 27%;
+        }
+        #links{
+            padding-right: 10px;
+
+            #button11{
+                font-size: 10px;
+               
+            }
+            font-size: 5px;
+            ul{
+                gap: 10px;
+                li{
+                    font-size: 5px;
+                }
+                #li{
+                    font-size: 5px;   
+                }
+            }
+        }
+    }
+}

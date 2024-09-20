@@ -29,7 +29,7 @@ function Donation(){
             <p className="text-[#261B6C]">
                 If you are holding an event that you wish to have us <span  className="md:hidden"><br /></span> donation to, we're more than glad to help. Fill in the<span  className="md:hidden"><br /></span> donation request from for us to best understand how we <span  className="md:hidden"><br /></span> can increase your event's impact in the local comunity
             </p>
-            <button onClick={handleOpenModal}  className="text-[#fff] rounded-[5px]  bg-[#BA8F55] font-[600] text-[18px] p-[5px] px-[35px] mt-[15px]">
+            <button id="button116" onClick={handleOpenModal}  className="text-[#fff] rounded-[5px]  bg-[#BA8F55] font-[600] text-[18px] p-[5px] px-[35px] mt-[15px]">
                 REQUEST DONATION
             </button>
             {showModal && (

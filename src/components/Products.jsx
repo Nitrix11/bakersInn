@@ -46,7 +46,7 @@ function Products() {
           </div>
         </div>
         <Link to="/product">
-        <button className="text-[#fff] rounded-[5px]  bg-[#BA8F55] font-[600] text-[18px] p-[5px] px-[35px] mt-[15px]">
+        <button id="button114" className="text-[#fff] rounded-[5px]  bg-[#BA8F55] font-[600] text-[18px] p-[5px] px-[35px] mt-[15px]">
             VIEW COMPLETE RANGE
         </button>
         </Link>

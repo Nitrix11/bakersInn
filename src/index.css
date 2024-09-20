@@ -4,14 +4,19 @@
 *{
   margin: 0;
   padding: 0;
+
   @media (max-width:768px) {
+    #nav{
+ 
+    }
     #text{
-      span{
-        display: none;
-      }
+     width: 60%;
     }
  #hero-text{
   flex-direction: column;
+  #button112{
+    font-size: 15px;
+  }
  }
     }
   
@@ -87,6 +92,22 @@ span{
     }
   }
 }
+
+@media (max-width:1440px) {
+  #abt-hero {
+     #abt-h1{
+        margin-top: 805px;
+     }
+     height: 10vh;
+     h1{
+
+       width: 10%;
+       background: linear-gradient(to bottom, transparent, black);
+       border-radius: 5px;
+     }
+   } 
+}
+
 }
 #nav{
 display: flex;
@@ -1182,4 +1203,8 @@ bottom: 0;
   #input-group{
     gap: 5px;
   }
+}
+#popup-arrow{
+  color:#FFF ;
+  font-size: 30px;
 }

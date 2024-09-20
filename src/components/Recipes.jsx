@@ -60,12 +60,12 @@ function Tabs() {
                   
                     </div>
                   
-                    <button className='bg-[#BA8F55] rounded-[50%] w-[50px] ' onClick={() => {
+                    <button id='popup-arrow' className='bg-[#BA8F55] rounded-[50%] w-[50px] ' onClick={() => {
                     setShowModal(true);
                     setSelectedCard(card);
                   }}>
                
-                
+                →
                   </button>
                   </div>
                  
@@ -101,11 +101,11 @@ function Tabs() {
                   
                     </div>
                   
-                    <button className='bg-[#BA8F55] rounded-[50%] w-[50px] ' onClick={() => {
+                    <button id='popup-arrow' className='bg-[#BA8F55] rounded-[50%] w-[50px] ' onClick={() => {
                     setShowModal(true);
                     setSelectedCard(card);
                   }}>
-               
+               →
                 
                   </button>
                   </div>
@@ -143,11 +143,11 @@ function Tabs() {
                   
                     </div>
                   
-                    <button className='bg-[#BA8F55] rounded-[50%] w-[50px] ' onClick={() => {
+                    <button id='popup-arrow' className='bg-[#BA8F55] rounded-[50%] w-[50px] ' onClick={() => {
                     setShowModal(true);
                     setSelectedCard(card);
                   }}>
-               
+               →
                 
                   </button>
                   </div>

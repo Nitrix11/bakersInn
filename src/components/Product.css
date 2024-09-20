@@ -1,5 +1,8 @@
 @media (max-width:768px) {
     #P-wrapper{
+        #button114{
+            font-size: 15px;
+        }
 height: 40vh;
     }
 }

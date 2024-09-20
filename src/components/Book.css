@@ -4,6 +4,9 @@
         width: 40%;
     }
     #wrapper{
+        #button115{
+            font-size: 15px;
+        }
         margin: 20px;
         margin-top: 50px;
     }
@@ -13,5 +16,10 @@
         right: 10px;
         font-size: 24px;
         cursor: pointer;
+      }
+      #book-p{
+        span{
+            display: none;
+        }
       }
 }

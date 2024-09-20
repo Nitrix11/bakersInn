@@ -24,7 +24,7 @@ function ContactPage(){
         </div>
       </div>
     </section>
-        <div id="container12" className="flex items-center justify-center w-[100%] bg-[#F7F5E8] py-[30px] my-[100px]">
+        <div id="container12" className="flex items-center justify-center w-[100%] bg-[#F7F5E8] gap-[100px] py-[30px] my-[100px]">
         <CardCore title="Harare Bread Factory" description="1 Shepperton Road, Graniteside, Harare " description2="+263 242 710334, +263 242 751481, "description3="+263 242 751572, +263 242 758659
 " description4="  08677006178"  description5=" 08080151, 08080152 " bold="Econet Toll Free:"  image={cream}/>
  <CardCore bolds="VOIP:" title="Bulawayo Bread Factory" description="22 A Bellevue Road, Belmont, Bulawayo " description2="

@@ -1,5 +1,5 @@
 import logo from"../assets/bakers-inn-category 1.png"
-
+import"../components/Nav.css"
 import { Link } from "react-router-dom";
 function Nav(){
     return(
@@ -14,7 +14,7 @@ function Nav(){
             <div id="links" className="flex items-center justify-between pr-[15px]">
                 <ul className="flex justify-center gap-[20px]"  >
                     <Link to="about">
-                    <li><a href="" className="text-[#261B6C] text-[22px] font-bold">  About Us</a></li>
+                    <li id="li"><a href="" className="text-[#261B6C] text-[22px] font-bold">  About Us</a></li>
                     </Link>
                     
                    <Link to='product'>
@@ -31,7 +31,7 @@ function Nav(){
                 </ul>
                 <Link to='contact'>
                
-                <button className=" text-[#fff] rounded-[5px] font-bold bg-[#BA8F55] p-[10px] ml-[20px] ">CONTACT US</button>
+                <button id="button11" className=" text-[#fff] rounded-[5px] font-bold bg-[#BA8F55] p-[10px] ml-[20px] ">CONTACT US</button>
                 </Link>
             </div>
         </nav>

@@ -20,7 +20,7 @@ function Hero(){
 </p>
 
 <a href="#abt-wrapper">
-<button className="text-[#fff] rounded-[5px] font-bold bg-[#BA8F55] text-[18px] p-[10px] mt-[10px]">
+<button id="button112" className="text-[#fff] rounded-[5px] font-bold bg-[#BA8F55] text-[18px] p-[10px] mt-[10px]">
     Read More
 </button>
 </a>
