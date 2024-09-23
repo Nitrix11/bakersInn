@@ -1,0 +1,110 @@
+
+
+.product-tabs {
+    padding: 40px 20px;
+    text-align: center;
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        color: #261B6C;
+    }
+    .tabs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 40px;
+    
+        position: relative;
+        button {
+            background: none;
+            border: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding-bottom: 10px;
+            cursor: pointer;
+            color: #938DB5;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.3s, color 0.3s;
+            border-radius: none;
+            &:hover,
+            &.active {
+                border-bottom: 2px solid #d2a246;
+                color: #261B6C;
+                border-radius: 0;
+                -webkit-border-radius: 0;
+                -moz-border-radius: 0;
+                -ms-border-radius: 0;
+                -o-border-radius: 0;
+            }
+        }
+    }
+    .products-grid {
+        display: grid;
+        justify-content: center;
+        margin-left: 200px;
+        grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+        gap: 20px;
+        .product-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+            justify-content: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            img {
+                width: 150px;
+                height: auto;
+                margin-bottom: 15px;
+            }
+            h3 {
+                font-size: 1.4rem;
+                color: #333;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 1rem;
+                color: #666;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .product-tabs {
+        .tabs {
+            flex-direction: column;
+            button {
+                margin-bottom: 10px;
+            }
+        }
+        .products-grid {
+            grid-template-columns: 1fr;
+            margin: 10px;
+        }
+    }
+}
+
+.line2 {
+    position: absolute;
+    bottom: -8px;
+    height: 1px;
+    width: 100%;
+    background-color: #938DB5;
+    border: none;
+}
+@media (max-width: 1024px) {
+    .product-tabs {
+        .tabs {
+            flex-direction: column;
+            button {
+                margin-bottom: 10px;
+            }
+        }
+        .products-grid {
+            grid-template-columns: 1fr;
+            margin: 10px;}}}

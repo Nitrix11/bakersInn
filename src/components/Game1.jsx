@@ -1,5 +1,6 @@
 import kidscorner from"../assets/Kid's Corner.png"
 import games from"../assets/GAMES.png"
+
 function Game1(){
     return(
         <>

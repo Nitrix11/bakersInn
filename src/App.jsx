@@ -8,12 +8,13 @@ import Productss from"./Pages/Productss"
 import RecipesPage from"../src/Pages/RecipesPage"
 import KidsPage from "./Pages/KidsPage";
 import ContactPage from"./Pages/ContactPage"
+import "../src/components/App.css"
 function App() { 
   return (
    
     <>
     <Router>
-    <Nav/>
+    <Nav id="Navbar1"/>
   
     <Routes>
       <Route exact path="/" element={<Home/>}/>

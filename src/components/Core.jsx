@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "../components/Core.css"
 import teamwork from "../assets/teamwork.png";
 import respect from "../assets/respect.png";
 import integrity from "../assets/intergrity.png";

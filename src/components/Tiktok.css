@@ -1,0 +1,25 @@
+@media (max-width:320px) {
+#tiktok-banner{
+
+    flex-direction: column;
+    #image6{
+        margin-left: 20px;
+        
+        width: 80%;
+    }
+    #text9{
+        h1{
+            font-size: 32px;
+            span{
+                display: none;
+                br{
+                    display: none;
+                }
+            }
+        }
+       
+    }
+}
+   
+
+}

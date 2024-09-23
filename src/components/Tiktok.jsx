@@ -4,6 +4,7 @@ import two from"../assets/recipes2.png"
 import three from"../assets/recipes3.png"
 import four from"../assets/recipes4.png"
 import ImageCircles from"../components/Effect"
+import"../components/Tiktok.css"
 function Tiktok(){
 return(
     <>

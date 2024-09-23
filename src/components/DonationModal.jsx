@@ -56,6 +56,20 @@ function DonationModal() {
        
 
         <button className='bg-[#B2904C] w-[100%] text-[#fff]' type="submit" style={{ width: '100%' }}>Proceed to next step</button>
+        {isSecondPopupOpen && (
+        <div className="second-popup">
+          <div className="second-popup-content">
+            <button className="second-close-btn" onClick={() => setIsSecondPopupOpen(false)}>×</button>
+            <h3>Request Product Donations</h3>
+            <form>
+              <textarea placeholder="How do you intend on using the product?" required></textarea>
+              <textarea placeholder="How will the community benefit from you as a result of our donation?" required></textarea>
+              <textarea placeholder="If there's any additional information that you would like to supply us with, which we have not asked you about, please let us know." required></textarea>
+              <button type="submit" className="submit-btn">Submit Application</button>
+            </form>
+          </div>
+        </div>
+      )}
       </form>
     </section>
   );

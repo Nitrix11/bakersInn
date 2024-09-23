@@ -1,4 +1,5 @@
 import people from"../assets/people.png"
+import "../components/Cv.css"
 function Cv(){
     return(
         <>

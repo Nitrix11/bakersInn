@@ -1,5 +1,16 @@
 @media (max-width:768px) {
     #nav{
+        #links{
+          #Menu{
+          
+            visibility: hidden;
+            #menu1{
+                visibility: hidden;
+              }
+          }
+        }
+        }
+    #nav{
         .logo{
             width: 27%;
         }
@@ -23,3 +34,40 @@
         }
     }
 }
+@media (max-width:425px) {
+    #nav{
+        .logo{
+width: 100%;
+        }
+     #links{
+        ul{
+            display: none;
+        }
+        #button11{
+            visibility: hidden;
+        }
+       
+     }
+     #Menu{
+           
+        visibility:visible;
+        }
+    }
+  }
+  @media (max-width:320px) {
+    #nav{
+     #links{
+        ul{
+            display: none;
+        }
+        #button11{
+            display: none;
+        }
+      
+     }
+     #Menu{
+           
+        visibility:visible;
+        }
+    }
+  }

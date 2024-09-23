@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
-
+import './ProductsTab.css';
 import yellow from "../assets/yellow.png";
 import red from "../assets/red.png";
-import blue from "../assets/Rectangle 5.png";
+import white from "../assets/red.png";
+import sliced from "../assets/sliced pie.png";
+import scone from "../assets/buicuits.png";
+import donutc from "../assets/chocolate.png";
+import donutw from "../assets/buicuits.png";
 
 const productsData = {
   bread: [
@@ -10,7 +14,7 @@ const productsData = {
       title: 'Premium Soft White Loaf',
       description:
         'Our Premium Soft White loaves are delightfully soft, fresh, and delicious. They are loaded with energy and fortified with vitamins and minerals for the classic everyday bread. The Standard Loaf has 18 slices.',
-      image: yellow,
+      image: white,
     },
     {
       title: 'Family Loaf High Energy Brown',
@@ -29,21 +33,51 @@ const productsData = {
     {
       title: 'Classic Meat Pie',
       description: 'Delicious meat pies with a flaky crust and savory filling.',
-      image: blue,
+      image: sliced,
+    },
+    {
+      title: 'Classic Meat Pie',
+      description: 'Delicious meat pies with a flaky crust and savory filling.',
+      image: sliced,
+    },
+    {
+      title: 'Classic Meat Pie',
+      description: 'Delicious meat pies with a flaky crust and savory filling.',
+      image: sliced,
     },
   ],
   scones: [
     {
       title: 'Sugar Free Scone',
       description: 'Tasty scones that are sugar-free and perfect for any time of day.',
-      image: yellow,
+      image: scone,
+    },
+    {
+      title: 'Sugar Free Scone',
+      description: 'Tasty scones that are sugar-free and perfect for any time of day.',
+      image: scone,
+    },
+    {
+      title: 'Sugar Free Scone',
+      description: 'Tasty scones that are sugar-free and perfect for any time of day.',
+      image: scone,
     },
   ],
   donuts: [
     {
       title: 'Chocolate Donut',
       description: 'Rich chocolate donuts that are a treat for any sweet tooth.',
-      image: red,
+      image: donutw,
+    },
+    {
+      title: 'Chocolate Donut',
+      description: 'Rich chocolate donuts that are a treat for any sweet tooth.',
+      image: donutc,
+    },
+    {
+      title: 'Chocolate Donut',
+      description: 'Rich chocolate donuts that are a treat for any sweet tooth.',
+      image: donutw,
     },
   ],
 };
@@ -52,24 +86,19 @@ const ProductTabs = () => {
   const [activeTab, setActiveTab] = useState('bread');
 
   const renderProducts = (category) => {
-    
     return productsData[category].map((product, index) => (
-      <div className="wrapper5">
-
-
-      <div id='product-card' className=" " key={index}>
-        <img src={product.image}  alt={product.title} />
+      <div className="product-card" key={index}>
+        <img src={product.image} alt={product.title} />
         <h3>{product.title}</h3>
         <p>{product.description}</p>
-      </div>
       </div>
     ));
   };
 
   return (
     <div className="product-tabs">
-      <h2 className="text-[#261B6C] text-[32px] font-bold">Our Products</h2>
-      <div id='tabss' className="tabs">
+      <h2>Our Products</h2>
+      <div className="tabs">
         {Object.keys(productsData).map((category) => (
           <button
             key={category}
@@ -78,11 +107,10 @@ const ProductTabs = () => {
           >
             {category.charAt(0).toUpperCase() + category.slice(1)}
           </button>
-          
         ))}
-       
+        <hr className='line2'/>
       </div>
-      <hr  id='liness' className='p-[30px]' />
+
       <div className="products-grid">{renderProducts(activeTab)}</div>
     </div>
   );

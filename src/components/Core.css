@@ -1,0 +1,8 @@
+@media (max-width:320px) {
+    section{
+        flex-wrap: wrap;
+     .value-box{
+        display: none;
+     }
+    }
+}

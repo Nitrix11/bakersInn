@@ -1,0 +1,15 @@
+@media (max-width:320px) {
+    #container12{
+        flex-direction: column;
+    }
+}
+@media (max-width:375px) {
+    #container12{
+        flex-direction: column;
+    }
+}
+@media (max-width:425px) {
+    #container12{
+        flex-direction: column;
+    }
+}

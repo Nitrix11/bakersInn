@@ -1,0 +1,15 @@
+@media (max-width:320px) {
+   .flex-inputs{
+    flex-direction: column;
+   } 
+}
+@media (max-width:375px) {
+    .flex-inputs{
+     flex-direction: column;
+    } 
+ }
+ @media (max-width:425px) {
+    .flex-inputs{
+     flex-direction: column;
+    } 
+ }

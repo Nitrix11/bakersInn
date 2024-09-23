@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
-
+import './ProductsTabs.css';
 import yellow from "../assets/yellow.png";
 import red from "../assets/red.png";
-import white from "../assets/blue.png";
+import white from "../assets/white.png";
+import sliced from "../assets/sliced pie.png";
+import scone from "../assets/buicuits.png";
+import donutc from "../assets/chocolate donut.png";
+import donutw from "../assets/buicuits.png";
 
 const productsData = {
   bread: [
@@ -29,21 +33,51 @@ const productsData = {
     {
       title: 'Classic Meat Pie',
       description: 'Delicious meat pies with a flaky crust and savory filling.',
-      image: white,
+      image: sliced,
+    },
+    {
+      title: 'Classic Meat Pie',
+      description: 'Delicious meat pies with a flaky crust and savory filling.',
+      image: sliced,
+    },
+    {
+      title: 'Classic Meat Pie',
+      description: 'Delicious meat pies with a flaky crust and savory filling.',
+      image: sliced,
     },
   ],
   scones: [
     {
       title: 'Sugar Free Scone',
       description: 'Tasty scones that are sugar-free and perfect for any time of day.',
-      image: yellow,
+      image: scone,
+    },
+    {
+      title: 'Sugar Free Scone',
+      description: 'Tasty scones that are sugar-free and perfect for any time of day.',
+      image: scone,
+    },
+    {
+      title: 'Sugar Free Scone',
+      description: 'Tasty scones that are sugar-free and perfect for any time of day.',
+      image: scone,
     },
   ],
   donuts: [
     {
       title: 'Chocolate Donut',
       description: 'Rich chocolate donuts that are a treat for any sweet tooth.',
-      image: red,
+      image: donutw,
+    },
+    {
+      title: 'Chocolate Donut',
+      description: 'Rich chocolate donuts that are a treat for any sweet tooth.',
+      image: donutc,
+    },
+    {
+      title: 'Chocolate Donut',
+      description: 'Rich chocolate donuts that are a treat for any sweet tooth.',
+      image: donutw,
     },
   ],
 };
@@ -74,6 +108,7 @@ const ProductTabs = () => {
             {category.charAt(0).toUpperCase() + category.slice(1)}
           </button>
         ))}
+        <hr className='line2'/>
       </div>
 
       <div className="products-grid">{renderProducts(activeTab)}</div>

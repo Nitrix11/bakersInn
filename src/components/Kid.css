@@ -54,3 +54,21 @@ margin-bottom: 80px;
     }
 
   }
+  @media (max-width:320px) {
+    #wrapper-kids{
+        #Kids{
+       #img2{
+        display: none;
+       }
+       #text4{
+        width: 100%;
+        img{
+            width: 98%;
+        }
+        p{
+            font-size: 15px;
+        }
+       }     
+        }
+    }
+  }

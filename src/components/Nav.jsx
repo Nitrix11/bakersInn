@@ -1,5 +1,6 @@
 import logo from"../assets/bakers-inn-category 1.png"
 import"../components/Nav.css"
+import HamburgerMenu from"../components/Menu"
 import { Link } from "react-router-dom";
 function Nav(){
     return(
@@ -33,7 +34,13 @@ function Nav(){
                
                 <button id="button11" className=" text-[#fff] rounded-[5px] font-bold bg-[#BA8F55] p-[10px] ml-[20px] ">CONTACT US</button>
                 </Link>
+                <div  id="Menu">
+                <HamburgerMenu  id="menu1"/>
+                </div>
+              
+              
             </div>
+           
         </nav>
         </>
     );

@@ -4,11 +4,16 @@
 *{
   margin: 0;
   padding: 0;
-
-  @media (max-width:768px) {
-    #nav{
- 
+@media (max-width:425px) {
+  #nav{
+    #Menu{
+      
+      visibility: visible;
     }
+    }
+}
+  @media (max-width:768px) {
+ 
     #text{
      width: 60%;
     }
@@ -29,6 +34,17 @@
    
   }
 @media (max-width:1024px) {
+  #nav{
+    links{
+      #Menu{
+        visibility: hidden;
+        #menu1{
+          visibility: hidden;
+        }
+ }
+    }
+
+    }
   #abt-hero{
     margin: 0 20px;
     margin-top: 10px;
@@ -94,6 +110,12 @@ span{
 }
 
 @media (max-width:1440px) {
+  #nav{
+    #Menu{
+          
+     visibility: visible;
+    }
+    }
   #abt-hero {
      #abt-h1{
         margin-top: 805px;
@@ -1203,8 +1225,97 @@ bottom: 0;
   #input-group{
     gap: 5px;
   }
+}.modal1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.modal-content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  justify-content: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.close12 {
+  position: absolute;
+  top: 30px;
+  right: 430px;
+  font-size: 44px;
+  cursor: pointer;
+}
+.close1 {
+  position: absolute;
+  top: 65px;
+  right: 450px;
+  font-size: 44px;
+  
+
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 #popup-arrow{
   color:#FFF ;
   font-size: 30px;
 }
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.circle1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 9%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.blue1 {
+  background-color: #261B6C; /* Blue color */
+}
+
+.brown1 {
+  background-color: #B2904C; /* Brown color */
+}
+
+.circle1:hover {
+  transform: rotateY(180deg) scale(1.1);
+}
+
+.menu-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.menu-links a {
+  color: #333;
+  text-decoration: none;
+  margin: 5px 0;
+  transition: color 0.3s;
+}
+
+.menu-links a:hover {
+  color: #3498db; /* Change color on hover */
+}
+

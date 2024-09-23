@@ -20,7 +20,7 @@ function About(){
         <h1 id="abt-h1" className="text-[#fff] font-bold text-[40px] mt-[420px] pl-[20px] ">About Us</h1>
       </div> */}
       <Mission/>
-      <CoreValues/>
+      <  CoreValues id="Core"/>
         </>
     );
 }

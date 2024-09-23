@@ -3,6 +3,7 @@ import rectangle from"../assets/Rectangle 10.png"
 import rectangle2 from"../assets/Rectangle 10.png"
 import { Link } from "react-router-dom";
 import About from "./About";
+import'../components/Hero.css'
 function Hero(){
     return(
         <div id="hero-text" className="flex item-center justify-center">
@@ -14,7 +15,7 @@ function Hero(){
 <div className="rectangle2">
 <img src={rectangle2} alt="" />
 </div>
-<h1 id="bringing" className="text-[#fff] font-bold text-[50px] ">Bringing you the <br/> <span>best value </span> at the<br/><span>best price.</span></h1>
+<h1 id="bringing" className="text-[#fff] font-bold text-[50px] ">Bringing you the <br/> <span> best value </span> at the<br/><span> best price.</span></h1>
 <p className="text-[#fff] text-[18px] mt-[10px]">
    The freshest sandwiches you can make are<br/> with Baker's inn soft white loaf.
 </p>

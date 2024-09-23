@@ -6,3 +6,17 @@
         }
     }
 }
+@media (max-width:320px) {
+    #wrapper0{
+        flex-direction:column-reverse;
+        span{
+            display: none;
+        }
+        p{
+            width: 100%;
+        }
+        #text3{
+            width: 80%;
+        }
+    }
+}

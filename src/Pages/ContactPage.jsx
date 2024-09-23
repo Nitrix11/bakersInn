@@ -8,11 +8,13 @@ import Modal1 from"../components/Modal1"
 import ModalEx from "../components/ImageCircles"
 import ImageComponent from "../components/ImageContainer"
 import ImageCircles from"../components/Effect"
+import HamburgerMenu from "../components/Menu"
+import"../Pages/Contact.css"
 function ContactPage(){
     return(
         <>
   
-   
+<HamburgerMenu/>
            <section className="product-range1">
       <div className="image-container1">
         <img

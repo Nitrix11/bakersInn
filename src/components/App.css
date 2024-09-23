@@ -1,0 +1,13 @@
+
+@media (max-width:320px) {
+    #Navbar1{
+        display: none;
+        visibility: hidden;
+    }  
+    Nav{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+}

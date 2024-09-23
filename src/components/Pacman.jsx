@@ -2,7 +2,7 @@ import gameone from"../assets/gameone.png"
 import gametwo from"../assets/gametwo.png"
 import gamethree from"../assets/gamethree.png"
 import { Link } from "react-router-dom";
-
+import"../components/Spaceship.css"
 
 function Pacman(){
     return(

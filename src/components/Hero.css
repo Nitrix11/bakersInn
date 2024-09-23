@@ -1,0 +1,25 @@
+
+@media (max-width:320px) {
+  
+ #hero-text{
+    margin: 0;
+    #text{
+        margin: 0;
+       
+        #bringing{
+            font-size: 30px;
+        }
+        p{
+            br{
+                display: none;
+            }
+        }
+    }
+    #bread{
+        img{
+            display: none;
+        }
+   
+    }
+ }
+}

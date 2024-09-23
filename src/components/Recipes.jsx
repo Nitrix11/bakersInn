@@ -2,6 +2,7 @@ import shwarma from'../assets/Rectangle 3377.png'
 import arrow from"../assets/Arrow 1.svg"
 import shortbread from"../assets/shortbread.png"
 import chips from"../assets/Rectangle 337.png"
+import Modal3 from "../components/Modal3"
 import React, { useState } from 'react';
 
 function Tabs() {
@@ -73,14 +74,12 @@ function Tabs() {
               ))}
             </div>
             {showModal && (
-              <div className="modal">
-                <div className="modal-content">
-                  <span className="close" onClick={() => setShowModal(false)}>
+              <div className="modal1">
+                <div className="modal-content1">
+                  <span className="close12" onClick={() => setShowModal(false)}>
                     &times;
                   </span>
-                  <h2>{selectedCard.title}</h2>
-                  <p>{selectedCard.description1}</p>
-                  <p>{selectedCard.description2}</p>
+                  <Modal3/>
                 </div>
               </div>
             )}

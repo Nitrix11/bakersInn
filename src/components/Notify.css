@@ -13,3 +13,24 @@
     left:450px;
 }
 }
+@media (max-width:320px) {
+    #email{
+        display: flex;
+        flex-direction: column;
+        form{
+            input{
+                width: 90%;
+            }
+            button{
+                display: none;
+            }
+            #submit1{
+                right: 450px;
+                left: 1000px;
+                }  
+        }
+    }
+ 
+
+ 
+}

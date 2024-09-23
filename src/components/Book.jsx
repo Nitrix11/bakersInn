@@ -37,7 +37,7 @@ function Booking(){
       )}
                
             </div>
-            <div id="imgage" className="w-[40%]">
+            <div id="image" className="w-[40%]">
 <img src={bread2} alt="" />
             </div>
         </div>
