@@ -1,6 +1,16 @@
 import React from 'react';
-
+import { useState } from 'react';
 function DonationModal() {
+
+  const [showModal, setShowModal] = useState(false);
+
+  const handleOpenModal = () => {
+    setShowModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
 
 
   return (
@@ -55,9 +65,14 @@ function DonationModal() {
         </div>
        
 
-        <button className='bg-[#B2904C] w-[100%] text-[#fff]' type="submit" style={{ width: '100%' }}>Proceed to next step</button>
-        {isSecondPopupOpen && (
-        <div className="second-popup">
+        <button onClick={handleOpenModal} className='bg-[#B2904C] w-[100%] text-[#fff]' type="submit" style={{ width: '100%' }}>Proceed to next step</button>
+        {showModal && (
+        <div className="modal">
+          <div className="modal-content">
+            <span className="close1" onClick={handleCloseModal}>
+              &times;
+            </span>
+            <div className="second-popup">
           <div className="second-popup-content">
             <button className="second-close-btn" onClick={() => setIsSecondPopupOpen(false)}>×</button>
             <h3>Request Product Donations</h3>
@@ -69,7 +84,11 @@ function DonationModal() {
             </form>
           </div>
         </div>
+          </div>
+        </div>
       )}
+
+   
       </form>
     </section>
   );

@@ -1,0 +1,14 @@
+@media (max-width:768px) {
+  
+    .hamburger-menu{
+        display: flex;
+        display: block;
+        } 
+}
+
+    @media (max-width:1440px) {
+        .hamburger-menu{
+            display: none;
+            
+            } 
+    }

@@ -26,11 +26,17 @@
             }
             #submit1{
                 right: 450px;
-                left: 1000px;
+             
                 }  
         }
     }
  
 
  
+}
+@media (max-width:1366px) {
+    #submit1{
+    left: 430px;
+     
+        }  
 }

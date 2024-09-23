@@ -32,7 +32,7 @@ function Donation(){
             <button id="button116" onClick={handleOpenModal}  className="text-[#fff] rounded-[5px]  bg-[#BA8F55] font-[600] text-[18px] p-[5px] px-[35px] mt-[15px]">
                 REQUEST DONATION
             </button>
-            {showModal && (
+      {showModal && (
         <div className="modal">
           <div className="modal-content">
             <span className="close1" onClick={handleCloseModal}>
@@ -41,7 +41,7 @@ function Donation(){
            <DonationModal/>
           </div>
         </div>
-      )}
+      )}      
                
         </div>
     </div>
