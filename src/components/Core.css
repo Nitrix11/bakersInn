@@ -6,3 +6,11 @@
      }
     }
 }
+@media (max-width:425px) {
+    section{
+        flex-wrap: wrap;
+     .value-box{
+        display: none;
+     }
+    }
+}

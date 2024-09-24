@@ -18,21 +18,41 @@
 }
 @media (max-width:425px) {
     #abt-wrapper{
-        #button113{
-            font-size: 10px;
-        }
-        #pics{
-            width: 19%;
-        }
-        #abt-text{
-            gap: 80px;
-            h1{
-                font-size: 25px;
-            }
-            p{font-size: 13px;}
-
-        }
-    }
+        margin-bottom: 300px;
+              #pics{
+                  width: 70%;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  img{
+                      margin-left: 25px;
+                      width: 100%;
+                  }
+              }
+              #abt-text{
+                  #ptag11{
+                      margin: 0;
+                      width: 80%;
+                  }
+                
+                  margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      h1{width: 80%;}
+      p{
+          width: 70%;
+          text-align: center;
+          margin-left: 30px;
+          br{
+              display: none;
+          }
+      
+      }
+              }
+          }
 }
 
 @media (max-width:320px) {

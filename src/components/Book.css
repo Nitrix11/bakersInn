@@ -35,3 +35,16 @@
         }
     }
 }
+@media (max-width:425px) {
+    #wrapper{
+        flex-direction: column;
+        gap: 50px;
+        #image{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+

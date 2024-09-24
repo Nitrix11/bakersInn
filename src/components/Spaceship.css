@@ -37,3 +37,42 @@
     }
    
 }
+@media (max-width:425px) {
+    #wrapper10{
+        flex-direction: column;
+        #text10{
+            width: 100%;
+            span{
+                display: none;
+            }
+        }
+        #img{
+            width: 90%;
+        }
+    }
+    #wrapper11{
+        flex-direction: column;
+        #text10{
+            width: 100%;
+            span{
+                display: none;
+            }
+        }
+        #img{
+            width: 90%;
+        }
+    }
+    #wrapper12{
+        flex-direction: column;
+        #text10{
+            width: 100%;
+            span{
+                display: none;
+            }
+        }
+        #img{
+            width: 90%;
+        }
+    }
+   
+}

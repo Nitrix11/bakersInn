@@ -40,3 +40,24 @@
      
         }  
 }
+@media (max-width:425px) {
+    #email{
+        display: flex;
+        flex-direction: column;
+        form{
+            input{
+                width: 90%;
+            }
+            button{
+                display: none;
+            }
+            #submit1{
+                right: 450px;
+             
+                }  
+        }
+    }
+ 
+
+ 
+}

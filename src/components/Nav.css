@@ -1,5 +1,8 @@
 @media (max-width:768px) {
-   
+    #Menu{
+        .hamburger-menu{
+       visibility: visible;
+        }}
     #nav{
         .logo{
             width: 27%;
@@ -30,6 +33,10 @@
     }
 }
 @media (max-width:425px) {
+    #Menu{
+        .hamburger-menu{
+       visibility: visible;
+        }}
     
     #nav{
         .logo{
@@ -52,3 +59,92 @@ width: 100%;
   
    
   }
+
+  .nav-bar {
+    background-color: #fff; /* or any background color */
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust as necessary */
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 3rem; /* Spacing between links */
+  
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-family: bold;
+    color: #261B6C;/* Link color */
+    text-align: center;
+  
+    button{
+              border-radius: 3px;
+              border: none;
+              width: 150px;
+              height: 30px;
+                background-color: #B2904C;
+                color: #fff;
+                font-family: bold;
+             }
+  
+             button:hover{
+              background-color: #261B6C;
+              transform: scale(1.2);
+              transition-duration: 100ms;
+             }
+  }
+  
+  .nav-links a:hover{
+    transform: scale(1.1);
+    color: #B2904C;
+  }
+  
+  .hamburger {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    cursor: pointer;
+    
+  }
+  
+  .bar {
+    height: 4px;
+    width: 25px;
+    background-color: #261B6C; /* Hamburger color */
+    margin: 3px 0;
+    transition: all 0.3s ease;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .nav-links {
+        z-index: 100;
+      display: none; /* Hide links by default */
+      flex-direction: column;
+      position: absolute;
+      top: 60px; /* Adjust based on navbar height */
+      left: 0;
+      width: 100%;
+      background: linear-gradient(to left,transparent,rgb(255, 255, 255));
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+    .nav-links.open {
+      display: flex; /* Show links when open */
+    }
+  
+    .hamburger {
+      display: flex; /* Show hamburger on mobile */
+    }
+  }
+  

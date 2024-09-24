@@ -20,3 +20,20 @@
         }
     }
 }
+
+@media (max-width:425px) {
+    #wrapper0{
+        align-items: center;
+       background-color: #fff;
+        flex-direction:column-reverse;
+        span{
+            display: none;
+        }
+        p{
+            width: 100%;
+        }
+        #text3{
+            width: 80%;
+        }
+    }
+}
