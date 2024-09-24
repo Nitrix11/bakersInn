@@ -15,11 +15,11 @@ function Footer(){
     <div id="wrapper" className='bg-[#261B6C]'>
         <div id="lines" className='flex items-center'>
             <hr className='w-[50%] mt-[140px]  ml-[20px] mr-[20px]' />
-            <img className='w-[10%]' src={logo1} alt="" />
+            <img id='logo11' className='w-[10%]' src={logo1} alt="" />
             <hr className='w-[50%] mt-[140px] border-2px  ml-[20px] mr-[20px]' />
         </div>
         <div id="main"  className='flex  gap-[300px] pt-[30px]' >
-        <div id="instagramfeed " className="w-[20%]">
+        <div id="instagramfeed" className="w-[20%]">
             <h1 id="h1" className='text-[#fff] font-bold text-[20px]  mb-[10px] ml-[20px] '>Instagram Feed</h1>
             <div id="pic5" className='flex w-[45%] gap-[15px] ml-[20px]'>
                 <img src={feed1} alt="" />

@@ -1,4 +1,7 @@
 @media (max-width:768px) {
+    #instagramfeed {
+        display: none;
+    }
     #wrapper2{
         gap: 20px;
         p{
@@ -9,9 +12,72 @@
         }
     }
     #main{
+        justify-content: center;
         gap: 150px;
         #h1{
         font-size: 19px;
         }
+    }
+}
+@media (max-width:425px) {
+    #instagramfeed {
+        display: none;
+    }
+    #main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    #wrapper2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    #getintouch{
+        margin-left: 60px;
+    }
+    #logo11{
+        width: 70%;
+    }
+    #copyright{
+      
+        p{
+            font-size: 10px;
+        }
+    
+    }
+
+}
+
+@media (max-width:320px) {
+    #instagramfeed {
+        display: none;
+    }
+    #main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    #wrapper2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    #getintouch{
+        margin-left: 60px;
+    }
+    #logo11{
+        width: 70%;
+    }
+    #copyright{
+      
+        p{
+            font-size: 10px;
+        }
+    
     }
 }

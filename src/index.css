@@ -4,6 +4,7 @@
 *{
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 @media (max-width:425px) {
   #Menu{
     .hamburger-menu{
